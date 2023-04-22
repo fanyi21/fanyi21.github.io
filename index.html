@@ -74,31 +74,28 @@
     <article id="post-Hexo-Github" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2023/04/22/Hexo-Github/" class="article-date">
-  <time class="dt-published" datetime="2023-04-22T02:50:09.000Z" itemprop="datePublished">2023-04-22</time>
+  <time class="dt-published" datetime="2023-04-22T02:50:09.090Z" itemprop="datePublished">2023-04-22</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/04/22/Hexo-Github/">hexo test</a>
-    </h1>
-  
-
-      </header>
-    
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h2 id="Hello-Hexo"><a href="#Hello-Hexo" class="headerlink" title="Hello Hexo"></a>Hello Hexo</h2><p>step 1:</p>
+        <h1 id="push-Hexo-to-github"><a href="#push-Hexo-to-github" class="headerlink" title="push Hexo to github"></a>push Hexo to github</h1><p>step 1: create a new repository in Github.</p>
+<p>step 2: set the repository name <em><strong>githubUser.github.io</strong></em>.</p>
+<p>step 3: click <em><strong>create repository</strong></em>.</p>
+<p>step 4: install hexo-deployer-git <em><strong>npm install hexo-deployer-git –save</strong></em>.</p>
+<p>step 5: modify the file <em><strong>_config.yml</strong></em>.</p>
+<pre><code><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">type: git</span><br><span class="line">repository: git@github.com:githubUser/githubUser.github.io.git</span><br><span class="line">branch: main</span><br></pre></td></tr></table></figure>
+</code></pre>
+<p>step 5: run code <em><strong>hexo d</strong></em>.</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/04/22/Hexo-Github/" data-id="clgrez8s10000ycvmag51fqnw" data-title="hexo test" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2023/04/22/Hexo-Github/" data-id="clgrez8s10000ycvmag51fqnw" data-title="" class="article-share-link">Share</a>
       
       
       
@@ -145,6 +142,9 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h3 id="push-files-to-Github-pages"><a href="#push-files-to-Github-pages" class="headerlink" title="push files to Github pages"></a>push files to Github pages</h3><pre><code class="bash">$ hexo g # generate page
+$ hexo d # push modiflied .md file
+</code></pre>
 
       
     </div>
@@ -192,7 +192,7 @@
       <ul>
         
           <li>
-            <a href="/2023/04/22/Hexo-Github/">hexo test</a>
+            <a href="/2023/04/22/Hexo-Github/">(no title)</a>
           </li>
         
           <li>
